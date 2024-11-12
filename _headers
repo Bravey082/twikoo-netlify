@@ -1,0 +1,14 @@
+# 允许所有路径的跨域请求
+/*
+  Access-Control-Allow-Origin: https://bravey.us.kg
+  Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+  Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Authorization
+  Access-Control-Allow-Credentials: true
+*/
+
+# 如果您只想允许特定路径的跨域请求，可以指定路径
+#/api/*
+#  Access-Control-Allow-Origin: https://bravey.us.kg
+#  Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+#  Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Authorization
+#  Access-Control-Allow-Credentials: true
